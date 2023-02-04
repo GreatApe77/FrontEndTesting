@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.coracao{
+    width: 80px;
+}
+.topoDoSite{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(217, 217, 217);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 6px 3px rgb(136, 136, 136)
+}
+.mafeTitle{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+}
