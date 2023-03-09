@@ -37,13 +37,13 @@ for (let i = 0; i < botaoDetalhes.length; i++) {
             alert("nós no aniversário(sua perna estava queimada)")    
         }
         if (i===9) {
-            alert("")    
+            alert("academia pré carnaval")    
         }
         if (i===10) {
-            alert("")    
+            alert("preparando pra ir ao aniversário ")    
         }
         if (i===11) {
-            alert("")    
+            alert("foto tirada no aniversáiro que estávamos nos preparando")    
         }
         
     })
