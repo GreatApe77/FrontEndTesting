@@ -33,6 +33,18 @@ for (let i = 0; i < botaoDetalhes.length; i++) {
         if (i===7) {
             alert("nossa última ida ao cumbuco (por enquanto)")    
         }
+        if (i===8) {
+            alert("nós no aniversário(sua perna estava queimada)")    
+        }
+        if (i===9) {
+            alert("")    
+        }
+        if (i===10) {
+            alert("")    
+        }
+        if (i===11) {
+            alert("")    
+        }
         
     })
     
