@@ -1,24 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Dancing Script', cursive;
+body {
+  font-family: "Dancing Script", cursive;
 }
-.coracao{
-    width: 50px;
+.coracao {
+  width: 50px;
 }
-header{
-    display: flex;
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f8ff;
+  padding: 10px;
+  box-shadow: 0px 0px 56px 0px rgba(0, 0, 0, 0.62);
+}
+header h1 {
+  font-size: 50px;
+}
+.containerHome {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.containerImagem img {
+  margin-top: 30px;
+  max-width: 100%;
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 56px 0px rgba(0, 0, 0, 0.62);
+}
+.containerTexto {
+  width: 100%;
+  max-width: 300px;
+}
+.assinatura {
+  text-align: end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ancora {
+  text-decoration: none;
+  background-color: #fd5e5e;
+  color: #f0f8ff;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 56px 0px rgba(238, 76, 76, 0.62);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fd5e5e;
+  transition: all 0.3s;
+}
+.imagem {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 56px 0px rgba(0, 0, 0, 0.62);
+}
+.ancora:hover {
+  background-color: #f0f8ff;
+  color: #fd5e5e;
+}
+@media screen and (max-width: 860px) {
+  .containerImagem {
+    width: 200px;
+  }
+  .containerHome {
+    flex-direction: column;
     justify-content: center;
-    background-color: #f0f8ff;
-    padding: 10px;
-    box-shadow: 0px 0px 56px 0px rgba(0,0,0,0.62);
-}
-header h1{
-    font-size: 50px;
-    
-
+  }
+  .containerTexto {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
