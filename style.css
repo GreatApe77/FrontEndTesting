@@ -13,11 +13,20 @@ body {
 header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: #f0f8ff;
   padding: 10px;
   box-shadow: 0px 0px 56px 0px rgba(0, 0, 0, 0.62);
 }
-header h1 {
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  padding: 20px;
+}
+header div h1 {
   font-size: 50px;
 }
 .containerHome {
@@ -97,7 +106,7 @@ header h1 {
   text-align: center;
 }
 .botao {
-    cursor: pointer;
+  cursor: pointer;
   background-color: #fd5e5e;
   color: #f0f8ff;
   padding: 8px;
@@ -114,9 +123,9 @@ header h1 {
   color: #fd5e5e;
 }
 footer {
-    padding: 10px;
-    margin-top: 50px;
-    text-align: center;
-    background-color: #fd5e5e;
-    color: #f0f8ff;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #fd5e5e;
+  color: #f0f8ff;
 }

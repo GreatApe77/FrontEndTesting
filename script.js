@@ -1,5 +1,5 @@
 
-import  DATA  from "./data/data.json" assert {type: "json"};
+import DATA from "./data/data.json" assert {type: "json"};
 
 const descricoes = DATA.descricoes
 
@@ -12,7 +12,7 @@ function renderContainer(index, textContent) {
     //setar a imagem
     const image = document.createElement("img")
     image.className = "imagem"
-    image.src = `./img/${index+1}.jpg`
+    image.src = `./img/${index + 1}.jpg`
 
     //setar o paragrafo
 
@@ -46,8 +46,13 @@ function renderContainer(index, textContent) {
 }
 
 
-for (let i = 0; i < 10; i++) {
+function renderAllAlbum() {
 
-    document.getElementById("mainContainer").appendChild(renderContainer(i, descricoes))
+    for (let i = 0; i < descricoes.length; i++) {
 
+        document.getElementById("mainContainer").appendChild(renderContainer(i, descricoes))
+
+    }
 }
+
+renderAllAlbum()
