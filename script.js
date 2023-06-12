@@ -1,5 +1,5 @@
 
-import DATA from "./data/data.json" assert {type: "json"};
+import {DATA} from "./data/data.js" ;
 
 const descricoes = DATA.descricoes
 
