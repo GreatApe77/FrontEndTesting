@@ -56,8 +56,8 @@ header h1 {
   transition: all 0.3s;
 }
 .imagem {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 20px;
   max-width: 100%;
   width: 300px;
   border-radius: 6px;
@@ -94,9 +94,10 @@ header h1 {
 .descricao {
   padding: 15px;
   font-size: 24px;
-  
+  text-align: center;
 }
 .botao {
+    cursor: pointer;
   background-color: #fd5e5e;
   color: #f0f8ff;
   padding: 8px;
@@ -111,4 +112,11 @@ header h1 {
 .botao:hover {
   background-color: #f0f8ff;
   color: #fd5e5e;
+}
+footer {
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #fd5e5e;
+    color: #f0f8ff;
 }
