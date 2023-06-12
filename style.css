@@ -80,17 +80,35 @@ header h1 {
     margin-bottom: 30px;
   }
 }
-.fotoContainer{
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    align-items: center;
+.fotoContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
 }
-#mainContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.descricao{
-    padding: 15px;
+.descricao {
+  padding: 15px;
+  font-size: 24px;
+  
+}
+.botao {
+  background-color: #fd5e5e;
+  color: #f0f8ff;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 56px 0px rgba(238, 76, 76, 0.62);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fd5e5e;
+  transition: all 0.3s;
+}
+.botao:hover {
+  background-color: #f0f8ff;
+  color: #fd5e5e;
 }
